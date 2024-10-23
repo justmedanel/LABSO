@@ -1,0 +1,12 @@
+Mar 10 07:44:43 vb thermald[548]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+Mar 10 07:44:43 vb thermald[548]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+Mar 10 07:44:43 vb thermald[548]: [ERR]Thermal DTS or hwmon: No Zones present Need to configure manually
+Mar 10 07:44:43 vb thermald[548]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+Mar 10 07:44:43 vb thermald[548]: [ERR]No thermal sensors found
+Mar 10 07:44:43 vb thermald[548]: [ERR]THD engine start failed
+Mar 10 15:42:27 vb thermald[547]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+Mar 10 15:42:27 vb thermald[547]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+Mar 10 15:42:27 vb thermald[547]: [ERR]Thermal DTS or hwmon: No Zones present Need to configure manually
+Mar 10 15:42:27 vb thermald[547]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+Mar 10 15:42:27 vb thermald[547]: [ERR]No thermal sensors found
+Mar 10 15:42:27 vb thermald[547]: [ERR]THD engine start failed

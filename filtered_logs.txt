@@ -1,0 +1,943 @@
+vb rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="542" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+vb dbus-daemon[531]: dbus[531]: Unknown group "power" in message bus configuration file
+vb systemd[1]: logrotate.service: Succeeded.
+vb systemd[1]: Finished Rotate log files.
+vb dbus-daemon[531]: [system] AppArmor D-Bus mediation is enabled
+vb systemd[1]: Started Login Service.
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.systemd1'
+vb systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+vb systemd[1]: Started Make remote CUPS printers available locally.
+vb systemd[1]: Started Thermal Daemon Service.
+vb wpa_supplicant[551]: Successfully initialized wpa_supplicant
+vb avahi-daemon[528]: Successfully called chroot().
+vb avahi-daemon[528]: Successfully dropped remaining capabilities.
+vb systemd[1]: Started WPA supplicant.
+vb systemd[1]: Started Switcheroo Control Proxy service.
+vb systemd[1]: Condition check resulted in Manage Sound Card State (restore and store) being skipped.
+vb systemd[1]: Starting Save/Restore Sound Card State...
+vb alsactl[631]: /usr/sbin/alsactl: load_state:1683: Cannot open /var/lib/alsa/asound.state for reading: No such file or directory
+vb alsactl[631]: Found hardware: "ICH" "Analog Devices AD1980" "AC97a:41445370" "0x1028" "0x0177"
+vb alsactl[631]: Hardware is initialized using a generic method
+vb systemd[1]: Finished Save/Restore Sound Card State.
+vb systemd[1]: Reached target Sound Card.
+vb avahi-daemon[528]: No service file found in /etc/avahi/services.
+vb avahi-daemon[528]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+vb avahi-daemon[528]: New relevant interface lo.IPv6 for mDNS.
+vb avahi-daemon[528]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+vb avahi-daemon[528]: New relevant interface lo.IPv4 for mDNS.
+vb avahi-daemon[528]: Network interface enumeration completed.
+vb avahi-daemon[528]: Registering new address record for ::1 on lo.*.
+vb avahi-daemon[528]: Registering new address record for 127.0.0.1 on lo.IPv4.
+vb NetworkManager[532]: <info> [1646891082.1969] NetworkManager (version 1.22.10) is starting... (for the first time)
+vb NetworkManager[532]: <info> [1646891082.1970] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, 20-connectivity-ubuntu.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+vb thermald[548]: [WARN]NO RAPL sysfs present
+vb thermald[548]: [WARN]22 CPUID levels; family:model:stepping 0x6:8e:c (6:142:12)
+vb thermald[548]: [WARN]Polling mode is enabled: 4
+vb thermald[548]: [WARN]Thermal DTS: No coretemp sysfs found
+vb thermald[548]: [WARN]sensor id 0 : No temp sysfs for reading raw temp
+vb thermald[548]: message repeated 2 times: [ [WARN]sensor id 0 : No temp sysfs for reading raw temp]
+vb systemd[1]: Started Network Manager.
+vb systemd[1]: Reached target Network.
+vb NetworkManager[532]: <info> [1646891082.2026] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+vb systemd[1]: Starting Network Manager Wait Online...
+vb systemd[1]: Starting OpenVPN service...
+vb systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+vb systemd[1]: Starting Permit User Sessions...
+vb systemd[1]: Started Unattended Upgrades Shutdown.
+vb systemd[1]: Finished OpenVPN service.
+vb systemd[1]: Finished Permit User Sessions.
+vb systemd[1]: Starting GNOME Display Manager...
+vb systemd[1]: Starting Hold until boot process finishes up...
+vb polkitd[540]: started daemon version 0.105 using authority implementation `local' version `0.105'
+vb systemd[1]: Started Authorization Manager.
+vb systemd[1]: Starting Modem Manager...
+vb NetworkManager[532]: <info> [1646891082.5337] manager[0x55c93fc6d020]: monitoring kernel firmware directory '/lib/firmware'.
+vb NetworkManager[532]: <info> [1646891082.5337] monitoring ifupdown state file '/run/network/ifstate'.
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.12' (uid=0 pid=532 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+vb systemd[1]: Starting Hostname Service...
+vb thermald[548]: I/O warning : failed to load external entity "/etc/thermald/thermal-conf.xml"
+vb thermald[548]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+vb thermald[548]: [WARN]sysfs open failed
+vb thermald[548]: [WARN]sysfs open failed
+vb thermald[548]: I/O warning : failed to load external entity "/etc/thermald/thermal-conf.xml"
+vb thermald[548]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+vb thermald[548]: [ERR]Thermal DTS or hwmon: No Zones present Need to configure manually
+vb thermald[548]: I/O warning : failed to load external entity "/etc/thermald/thermal-conf.xml"
+vb thermald[548]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+vb thermald[548]: [ERR]No thermal sensors found
+vb thermald[548]: [ERR]THD engine start failed
+vb avahi-daemon[528]: Server startup complete. Host name is vb.local. Local service cookie is 2219432936.
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.hostname1'
+vb systemd[1]: Started Hostname Service.
+vb NetworkManager[532]: <info> [1646891083.1107] hostname: hostname: using hostnamed
+vb NetworkManager[532]: <info> [1646891083.1107] hostname: hostname changed from (none) to "vb"
+vb NetworkManager[532]: <info> [1646891083.1110] dns-mgr[0x55c93fc53290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+vb NetworkManager[532]: <info> [1646891083.1112] manager[0x55c93fc6d020]: rfkill: Wi-Fi hardware radio set enabled
+vb NetworkManager[532]: <info> [1646891083.1112] manager[0x55c93fc6d020]: rfkill: WWAN hardware radio set enabled
+vb udisksd[550]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+vb systemd[1]: thermald.service: Succeeded.
+vb kernel: [ 29.887636] kauditd_printk_skb: 25 callbacks suppressed
+vb kernel: [ 29.887639] audit: type=1400 audit(1646891083.676:37): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=629 comm="cups-browsed" capability=23 capname="sys_nice"
+vb ModemManager[642]: <info> ModemManager (version 1.12.8) starting in system bus...
+vb NetworkManager[532]: <info> [1646891083.8857] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+vb NetworkManager[532]: <info> [1646891083.9051] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+vb udisksd[550]: Failed to load the 'mdraid' libblockdev plugin
+vb NetworkManager[532]: <info> [1646891084.2451] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+vb NetworkManager[532]: <info> [1646891084.3835] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+vb snapd[545]: AppArmor status: apparmor is enabled and all features are available
+vb NetworkManager[532]: <info> [1646891084.5195] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+vb NetworkManager[532]: <info> [1646891084.5198] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+vb NetworkManager[532]: <info> [1646891084.5209] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+vb NetworkManager[532]: <info> [1646891084.5213] manager: Networking is enabled by state file
+vb NetworkManager[532]: <info> [1646891084.5217] dhcp-init: Using DHCP client 'internal'
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=532 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+vb systemd[1]: Starting Network Manager Script Dispatcher Service...
+vb NetworkManager[532]: <info> [1646891084.5714] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+vb NetworkManager[532]: <info> [1646891084.5714] settings: Loaded settings plugin: keyfile (internal)
+vb NetworkManager[532]: <info> [1646891084.5714] ifupdown: management mode: unmanaged
+vb NetworkManager[532]: <warn> [1646891084.5947] ifupdown: interfaces file /etc/network/interfaces doesn't exist
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+vb systemd[1]: Started Network Manager Script Dispatcher Service.
+vb systemd[1]: Started GNOME Display Manager.
+vb systemd[1]: Received SIGRTMIN+21 from PID 300 (plymouthd).
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.freedesktop.Accounts' unit='accounts-daemon.service' requested by ':1.20' (uid=0 pid=660 comm="/usr/sbin/gdm3 " label="unconfined")
+vb NetworkManager[532]: <info> [1646891084.7861] device (lo): carrier: link connected
+vb NetworkManager[532]: <info> [1646891084.7863] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+vb NetworkManager[532]: <info> [1646891084.7892] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+vb NetworkManager[532]: <info> [1646891085.0618] settings: (enp0s3): created default wired connection 'Wired connection 1'
+vb NetworkManager[532]: <info> [1646891085.0815] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+vb kernel: [ 31.315109] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+vb kernel: [ 31.318152] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+vb NetworkManager[532]: <info> [1646891085.1200] device (enp0s3): carrier: link connected
+vb accounts-daemon[524]: started daemon version 0.6.55
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.Accounts'
+vb systemd[1]: Started Accounts Service.
+vb NetworkManager[532]: <warn> [1646891085.3927] Error: failed to open /run/network/ifstate
+vb NetworkManager[532]: <info> [1646891085.5077] device (enp0s3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+vb NetworkManager[532]: <info> [1646891085.5230] policy: auto-activating connection 'Wired connection 1' (dbe6e333-cb10-3431-9be0-98689a3b27d3)
+vb NetworkManager[532]: <info> [1646891085.5241] device (enp0s3): Activation: starting connection 'Wired connection 1' (dbe6e333-cb10-3431-9be0-98689a3b27d3)
+vb NetworkManager[532]: <info> [1646891085.5245] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+vb NetworkManager[532]: <info> [1646891085.5259] manager: NetworkManager state is now CONNECTING
+vb NetworkManager[532]: <info> [1646891085.5271] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+vb NetworkManager[532]: <info> [1646891085.5474] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+vb NetworkManager[532]: <info> [1646891085.5485] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+vb avahi-daemon[528]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::c6fa:f5be:571c:50c.
+vb avahi-daemon[528]: New relevant interface enp0s3.IPv6 for mDNS.
+vb avahi-daemon[528]: Registering new address record for fe80::c6fa:f5be:571c:50c on enp0s3.*.
+vb NetworkManager[532]: <info> [1646891085.8743] dhcp4 (enp0s3): option dhcp_lease_time => '86400'
+vb NetworkManager[532]: <info> [1646891085.8743] dhcp4 (enp0s3): option domain_name_servers => '10.48.225.15 10.48.213.3 192.168.100.1'
+vb NetworkManager[532]: <info> [1646891085.8743] dhcp4 (enp0s3): option expiry => '1646977485'
+vb NetworkManager[532]: <info> [1646891085.8743] dhcp4 (enp0s3): option ip_address => '10.0.2.15'
+vb NetworkManager[532]: <info> [1646891085.8743] dhcp4 (enp0s3): option next_server => '10.0.2.4'
+vb NetworkManager[532]: <info> [1646891085.8743] dhcp4 (enp0s3): option requested_broadcast_address => '1'
+vb NetworkManager[532]: <info> [1646891085.8743] dhcp4 (enp0s3): option requested_domain_name => '1'
+vb NetworkManager[532]: <info> [1646891085.8743] dhcp4 (enp0s3): option requested_domain_name_servers => '1'
+vb NetworkManager[532]: <info> [1646891085.8743] dhcp4 (enp0s3): option requested_domain_search => '1'
+vb NetworkManager[532]: <info> [1646891085.8743] dhcp4 (enp0s3): option requested_host_name => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_interface_mtu => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_ms_classless_static_routes => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_nis_domain => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_nis_servers => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_ntp_servers => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_rfc3442_classless_static_routes => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_root_path => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_routers => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_static_routes => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_subnet_mask => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_time_offset => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option requested_wpad => '1'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option routers => '10.0.2.2'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): option subnet_mask => '255.255.255.0'
+vb NetworkManager[532]: <info> [1646891085.8744] dhcp4 (enp0s3): state changed unknown -> bound
+vb avahi-daemon[528]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+vb NetworkManager[532]: <info> [1646891085.9230] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+vb avahi-daemon[528]: New relevant interface enp0s3.IPv4 for mDNS.
+vb avahi-daemon[528]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+vb NetworkManager[532]: <info> [1646891086.0406] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+vb NetworkManager[532]: <info> [1646891086.0409] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+vb NetworkManager[532]: <info> [1646891086.0412] manager: NetworkManager state is now CONNECTED_LOCAL
+vb NetworkManager[532]: <info> [1646891086.0435] manager: NetworkManager state is now CONNECTED_SITE
+vb NetworkManager[532]: <info> [1646891086.0443] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+vb NetworkManager[532]: <info> [1646891086.0464] device (enp0s3): Activation: successful, device activated.
+vb NetworkManager[532]: <info> [1646891086.0489] manager: startup complete
+vb systemd[1]: Finished Network Manager Wait Online.
+vb systemd[1]: Reached target Network is Online.
+vb systemd[1]: Starting Tool to automatically collect and submit kernel crash signatures...
+vb systemd[1]: Started crash report submission daemon.
+vb systemd[1]: Started Disk Manager.
+vb udisksd[550]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+vb systemd[1]: kerneloops.service: Found left-over process 719 (kerneloops) in control group while starting unit. Ignoring.
+vb systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+vb systemd[1]: Started Tool to automatically collect and submit kernel crash signatures.
+vb NetworkManager[532]: <info> [1646891086.5149] modem-manager: ModemManager not available
+vb systemd[1]: Started Modem Manager.
+vb NetworkManager[532]: <info> [1646891086.5250] modem-manager: ModemManager now available
+vb NetworkManager[532]: <info> [1646891086.6321] manager: NetworkManager state is now CONNECTED_GLOBAL
+vb snapd[545]: daemon.go:246: started snapd/2.54.3+20.04.1ubuntu0.2 (series 16; classic) ubuntu/20.04 (amd64) linux/5.13.0-30-generic.
+vb kernel: [ 32.980789] loop14: detected capacity change from 0 to 8
+vb whoopsie[713]: [07:44:46] Using lock path: /var/lock/whoopsie/lock
+vb systemd[1]: tmp-sanity\x2dmountpoint\x2d827997703.mount: Succeeded.
+vb snapd[545]: daemon.go:339: adjusting startup timeout by 1m10s (pessimistic estimate of 30s plus 5s per snap)
+vb whoopsie[713]: [07:44:47] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+vb whoopsie[713]: [07:44:47] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+vb whoopsie[713]: [07:44:47] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+vb networkd-dispatcher[771]: WARNING: systemd-networkd is not running, output will be incomplete.
+vb systemd[1]: Started Dispatcher daemon for systemd-networkd.
+vb systemd[1]: dmesg.service: Succeeded.
+vb systemd[1]: Created slice User Slice of UID 1000.
+vb systemd[1]: Starting User Runtime Directory /run/user/1000...
+vb systemd[1]: Finished User Runtime Directory /run/user/1000.
+vb systemd[1]: Starting User Manager for UID 1000...
+vb systemd[1]: Started Snap Daemon.
+vb systemd[1]: Starting Wait until snapd is fully seeded...
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.30' (uid=0 pid=545 comm="/usr/lib/snapd/snapd " label="unconfined")
+vb systemd[1]: Starting Time & Date Service...
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.timedate1'
+vb systemd[1]: Started Time & Date Service.
+vb systemd[1]: Finished Wait until snapd is fully seeded.
+vb systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+vb ModemManager[642]: <info> Couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+vb systemd[786]: Started Pending report trigger for Ubuntu Report.
+vb systemd[786]: Reached target Paths.
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.34' (uid=1000 pid=801 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+vb systemd[786]: Reached target Timers.
+vb systemd[786]: Starting D-Bus User Message Bus Socket.
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+vb systemd[786]: Listening on GnuPG network certificate management daemon.
+vb rtkit-daemon[812]: Successfully called chroot.
+vb systemd[786]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+vb rtkit-daemon[812]: Successfully dropped privileges.
+vb systemd[786]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+vb rtkit-daemon[812]: Successfully limited resources.
+vb systemd[786]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+vb rtkit-daemon[812]: Running.
+vb systemd[786]: Listening on GnuPG cryptographic agent and passphrase cache.
+vb rtkit-daemon[812]: Watchdog thread running.
+vb systemd[786]: Listening on debconf communication socket.
+vb rtkit-daemon[812]: Canary thread running.
+vb systemd[786]: Listening on Sound System.
+vb systemd[786]: Listening on REST API socket for snapd user session agent.
+vb systemd[786]: Listening on D-Bus User Message Bus Socket.
+vb systemd[786]: Reached target Sockets.
+vb systemd[786]: Reached target Basic System.
+vb systemd[1]: Started User Manager for UID 1000.
+vb systemd[1]: Started Session 1 of user andra.
+vb systemd[786]: Starting Sound Service...
+vb systemd[786]: Starting Tracker metadata extractor...
+vb systemd[786]: Starting Tracker file system data miner...
+vb systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+vb systemd[1]: Started RealtimeKit Scheduling Policy Service.
+vb rtkit-daemon[812]: Successfully made thread 801 of process 801 owned by '1000' high priority at nice level -11.
+vb rtkit-daemon[812]: Supervising 1 threads of 1 processes of 1 users.
+vb tracker-extract[802]: Set scheduler policy to SCHED_IDLE
+vb tracker-extract[802]: Setting priority nice level to 19
+vb tracker-miner-f[803]: Set scheduler policy to SCHED_IDLE
+vb tracker-miner-f[803]: Setting priority nice level to 19
+vb systemd[786]: Started D-Bus User Message Bus.
+vb /usr/lib/gdm3/gdm-x-session[811]: (--) Log file renamed from "/home/andra/.local/share/xorg/Xorg.pid-811.log" to "/home/andra/.local/share/xorg/Xorg.0.log"
+vb /usr/lib/gdm3/gdm-x-session[811]: X.Org X Server 1.20.13
+vb /usr/lib/gdm3/gdm-x-session[811]: X Protocol Version 11, Revision 0
+vb /usr/lib/gdm3/gdm-x-session[811]: Build Operating System: linux Ubuntu
+vb /usr/lib/gdm3/gdm-x-session[811]: Current Operating System: Linux vb 5.13.0-30-generic #33~20.04.1-Ubuntu SMP Mon Feb 7 14:25:10 UTC 2022 x86_64
+vb /usr/lib/gdm3/gdm-x-session[811]: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.13.0-30-generic root=UUID=de2aceb5-ace0-413a-b819-d9448089a2d2 ro quiet splash
+vb /usr/lib/gdm3/gdm-x-session[811]: Build Date: 14 December 2021 02:14:13PM
+vb /usr/lib/gdm3/gdm-x-session[811]: xorg-server 2:1.20.13-1ubuntu1~20.04.2 (For technical support please see http://www.ubuntu.com/support)
+vb /usr/lib/gdm3/gdm-x-session[811]: Current version of pixman: 0.38.4
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Before reporting problems, check http://wiki.x.org
+vb /usr/lib/gdm3/gdm-x-session[811]: #011to make sure that you have the latest version.
+vb /usr/lib/gdm3/gdm-x-session[811]: Markers: (--) probed, (**) from config file, (==) default setting,
+vb /usr/lib/gdm3/gdm-x-session[811]: #011(++) from command line, (!!) notice, (II) informational,
+vb /usr/lib/gdm3/gdm-x-session[811]: #011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Log file: "/home/andra/.local/share/xorg/Xorg.0.log", Time: Thu Mar 10 07:44:50 2022
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+vb systemd[1]: man-db.service: Succeeded.
+vb systemd[1]: Finished Daily man-db regeneration.
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) No Layout section. Using the first Screen section.
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) No screen section available. Using defaults.
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) |-->Screen "Default Screen Section" (0)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) | |-->Monitor "<default monitor>"
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) No monitor specified for screen "Default Screen Section".
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Using a default monitor configuration.
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Automatically adding devices
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Automatically enabling devices
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Automatically adding GPU devices
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Automatically binding GPU devices
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Max clients allowed: 256, resource mask: 0x1fffff
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Entry deleted from font path.
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Entry deleted from font path.
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Entry deleted from font path.
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Entry deleted from font path.
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Entry deleted from font path.
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) FontPath set to:
+vb /usr/lib/gdm3/gdm-x-session[811]: #011/usr/share/fonts/X11/misc,
+vb /usr/lib/gdm3/gdm-x-session[811]: #011/usr/share/fonts/X11/Type1,
+vb /usr/lib/gdm3/gdm-x-session[811]: #011built-ins
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) ModulePath set to "/usr/lib/xorg/modules"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) The server relies on udev to provide the list of input devices.
+vb /usr/lib/gdm3/gdm-x-session[811]: #011If no devices become available, reconfigure udev or disable AutoAddDevices.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loader magic: 0x55d5df775020
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module ABI versions:
+vb /usr/lib/gdm3/gdm-x-session[811]: #011X.Org ANSI C Emulation: 0.4
+vb /usr/lib/gdm3/gdm-x-session[811]: #011X.Org Video Driver: 24.1
+vb /usr/lib/gdm3/gdm-x-session[811]: #011X.Org XInput driver : 24.1
+vb /usr/lib/gdm3/gdm-x-session[811]: #011X.Org Server Extension : 10.0
+vb /usr/lib/gdm3/gdm-x-session[811]: (++) using VT number 2
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) xfree86: Adding drm device (/dev/dri/card0)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+vb /usr/lib/gdm3/gdm-x-session[811]: (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe0000000/16777216, 0xf0000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) LoadModule: "glx"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module glx: vendor="X.Org Foundation"
+vb /usr/lib/gdm3/gdm-x-session[811]: #011compiled for 1.20.13, module version = 1.0.0
+vb /usr/lib/gdm3/gdm-x-session[811]: #011ABI class: X.Org Server Extension, version 10.0
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Matched vmware as autoconfigured driver 0
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Matched modesetting as autoconfigured driver 1
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Matched fbdev as autoconfigured driver 2
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Matched vesa as autoconfigured driver 3
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) Assigned the driver to the xf86ConfigLayout
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) LoadModule: "vmware"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+vb dbus-daemon[816]: [session uid=1000 pid=816] AppArmor D-Bus mediation is enabled
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.2' (uid=1000 pid=803 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+vb systemd[786]: Starting Virtual filesystem service...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gtk.vfs.Daemon'
+vb systemd[786]: Started Virtual filesystem service.
+vb pulseaudio[801]: Disabling timer-based scheduling because running inside a VM.
+vb rtkit-daemon[812]: Supervising 1 threads of 1 processes of 1 users.
+vb rtkit-daemon[812]: Successfully made thread 839 of process 801 owned by '1000' RT at priority 5.
+vb rtkit-daemon[812]: Supervising 2 threads of 1 processes of 1 users.
+vb pulseaudio[801]: Disabling timer-based scheduling because running inside a VM.
+vb rtkit-daemon[812]: Supervising 2 threads of 1 processes of 1 users.
+vb rtkit-daemon[812]: Successfully made thread 840 of process 801 owned by '1000' RT at priority 5.
+vb rtkit-daemon[812]: Supervising 3 threads of 1 processes of 1 users.
+vb pulseaudio[801]: ALSA woke us up to read new data from the device, but there was actually nothing to read.
+vb pulseaudio[801]: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+vb pulseaudio[801]: We were woken up with POLLIN set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.2' (uid=1000 pid=803 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+vb systemd[786]: Starting Virtual filesystem service - disk device monitor...
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.39' (uid=1000 pid=801 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+vb systemd[1]: Condition check resulted in Bluetooth service being skipped.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+vb systemd[786]: Started Virtual filesystem service - disk device monitor.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.2' (uid=1000 pid=803 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+vb systemd[786]: Starting Virtual filesystem service - digital camera monitor...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+vb systemd[786]: Started Virtual filesystem service - digital camera monitor.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.2' (uid=1000 pid=803 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+vb systemd[786]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+vb systemd[786]: Started Sound Service.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating service name='org.gnome.OnlineAccounts' requested by ':1.8' (uid=1000 pid=857 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module vmware: vendor="X.Org Foundation"
+vb /usr/lib/gdm3/gdm-x-session[811]: #011compiled for 1.20.8, module version = 13.3.0
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Module class: X.Org Video Driver
+vb /usr/lib/gdm3/gdm-x-session[811]: #011ABI class: X.Org Video Driver, version 24.1
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) LoadModule: "modesetting"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module modesetting: vendor="X.Org Foundation"
+vb /usr/lib/gdm3/gdm-x-session[811]: #011compiled for 1.20.13, module version = 1.20.13
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Module class: X.Org Video Driver
+vb /usr/lib/gdm3/gdm-x-session[811]: #011ABI class: X.Org Video Driver, version 24.1
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) LoadModule: "fbdev"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module fbdev: vendor="X.Org Foundation"
+vb /usr/lib/gdm3/gdm-x-session[811]: #011compiled for 1.20.1, module version = 0.5.0
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Module class: X.Org Video Driver
+vb /usr/lib/gdm3/gdm-x-session[811]: #011ABI class: X.Org Video Driver, version 24.0
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) LoadModule: "vesa"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module vesa: vendor="X.Org Foundation"
+vb /usr/lib/gdm3/gdm-x-session[811]: #011compiled for 1.20.4, module version = 2.4.0
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Module class: X.Org Video Driver
+vb /usr/lib/gdm3/gdm-x-session[811]: #011ABI class: X.Org Video Driver, version 24.0
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) FBDEV: driver for framebuffer: fbdev
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) VESA: driver for VESA chipsets: vesa
+vb /usr/lib/gdm3/gdm-x-session[811]: xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) Falling back to old probe method for modesetting
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) Falling back to old probe method for fbdev
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading sub module "fbdevhw"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) LoadModule: "fbdevhw"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module fbdevhw: vendor="X.Org Foundation"
+vb /usr/lib/gdm3/gdm-x-session[811]: #011compiled for 1.20.13, module version = 0.0.2
+vb /usr/lib/gdm3/gdm-x-session[811]: #011ABI class: X.Org Video Driver, version 24.1
+vb /usr/lib/gdm3/gdm-x-session[811]: (EE) open /dev/fb0: Permission denied
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Creating default Display subsection in Screen section
+vb /usr/lib/gdm3/gdm-x-session[811]: #011"Default Screen Section" for depth/fbbpp 24/32
+vb /usr/lib/gdm3/gdm-x-session[811]: (--) vmware(0): DRM driver version is 2.18.1
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) vmware(0): RGB weight 888
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) vmware(0): Default visual is TrueColor
+vb /usr/lib/gdm3/gdm-x-session[811]: (--) vmware(0): Min width 1, Max Width 8192.
+vb /usr/lib/gdm3/gdm-x-session[811]: (--) vmware(0): Min height 1, Max Height 8192.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual1 has no monitor section
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual2 has no monitor section
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual3 has no monitor section
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual4 has no monitor section
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual5 has no monitor section
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual6 has no monitor section
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual7 has no monitor section
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual8 has no monitor section
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Printing probed modes for output Virtual1
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "800x600"x60.0 42.75 800 850 900 950 600 650 700 750 -hsync +vsync (45.0 kHz eP)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "2560x1600"x60.0 348.50 2560 2752 3032 3504 1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "2560x1440"x60.0 241.50 2560 2608 2640 2720 1440 1443 1448 1481 +hsync -vsync (88.8 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1920x1440"x60.0 234.00 1920 2048 2256 2600 1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1856x1392"x60.0 218.25 1856 1952 2176 2528 1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1792x1344"x60.0 204.75 1792 1920 2120 2448 1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1920x1200"x59.9 193.25 1920 2056 2256 2592 1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1920x1080"x60.0 173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync (67.2 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1600x1200"x60.0 162.00 1600 1664 1856 2160 1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1680x1050"x60.0 146.25 1680 1784 1960 2240 1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1400x1050"x60.0 121.75 1400 1488 1632 1864 1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1280x1024"x60.0 108.00 1280 1328 1440 1688 1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1440x900"x59.9 106.50 1440 1520 1672 1904 900 903 909 934 -hsync +vsync (55.9 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1280x960"x60.0 108.00 1280 1376 1488 1800 960 961 964 1000 +hsync +vsync (60.0 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1360x768"x60.0 85.50 1360 1424 1536 1792 768 771 777 795 +hsync +vsync (47.7 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1280x800"x59.8 83.50 1280 1352 1480 1680 800 803 809 831 +hsync -vsync (49.7 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1152x864"x75.0 108.00 1152 1216 1344 1600 864 865 868 900 +hsync +vsync (67.5 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1280x768"x59.9 79.50 1280 1344 1472 1664 768 771 778 798 -hsync +vsync (47.8 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1280x720"x59.9 74.50 1280 1344 1472 1664 720 723 728 748 -hsync +vsync (44.8 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "1024x768"x60.0 65.00 1024 1048 1184 1344 768 771 777 806 -hsync -vsync (48.4 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "800x600"x60.3 40.00 800 840 968 1056 600 601 605 628 +hsync +vsync (37.9 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Modeline "640x480"x59.9 25.18 640 656 752 800 480 489 492 525 -hsync -vsync (31.5 kHz e)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): EDID for output Virtual2
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): EDID for output Virtual3
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): EDID for output Virtual4
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): EDID for output Virtual5
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): EDID for output Virtual6
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): EDID for output Virtual7
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): EDID for output Virtual8
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual1 connected
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual2 disconnected
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual3 disconnected
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual4 disconnected
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual5 disconnected
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual6 disconnected
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual7 disconnected
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual8 disconnected
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Using exact sizes for initial modes
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Output Virtual1 using initial mode 800x600 +0+0
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) vmware(0): DPI set to (96, 96)
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) vmware(0): Using gamma correction (1.0, 1.0, 1.0)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading sub module "fb"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) LoadModule: "fb"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading /usr/lib/xorg/modules/libfb.so
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module fb: vendor="X.Org Foundation"
+vb /usr/lib/gdm3/gdm-x-session[811]: #011compiled for 1.20.13, module version = 1.0.0
+vb /usr/lib/gdm3/gdm-x-session[811]: #011ABI class: X.Org ANSI C Emulation, version 0.4
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading sub module "dri2"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) LoadModule: "dri2"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module "dri2" already built-in
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading sub module "dri3"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) LoadModule: "dri3"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module "dri3" already built-in
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) UnloadModule: "modesetting"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Unloading modesetting
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) UnloadModule: "fbdev"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Unloading fbdev
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) UnloadSubModule: "fbdevhw"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Unloading fbdevhw
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) UnloadModule: "vesa"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Unloading vesa
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+vb /usr/lib/gdm3/gdm-x-session[811]: VMware: No 3D enabled (0, Success).
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) vmware(0): Failed to initialize Gallium3D Xa. No render acceleration available.
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) vmware(0): Skipped initialization of direct rendering due to lack of render acceleration.
+vb /usr/lib/gdm3/gdm-x-session[811]: (--) vmware(0): Render acceleration is disabled.
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) vmware(0): Rendercheck mode is disabled.
+vb /usr/lib/gdm3/gdm-x-session[811]: (--) vmware(0): Direct rendering (DRI2 3D) is disabled.
+vb /usr/lib/gdm3/gdm-x-session[811]: (--) vmware(0): Direct rendering (DRI3 3D) is disabled.
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) vmware(0): Backing store enabled
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) vmware(0): Silken mouse enabled
+vb /usr/lib/gdm3/gdm-x-session[811]: (==) vmware(0): DPMS enabled
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): No 3D acceleration. Not setting up textured video.
+vb /usr/lib/gdm3/gdm-x-session[811]: (WW) vmware(0): Disabling Xv because no adaptors could be initialized.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension Generic Event Extension
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension SHAPE
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension MIT-SHM
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension XInputExtension
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension XTEST
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension BIG-REQUESTS
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension SYNC
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension XKEYBOARD
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension XC-MISC
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension SECURITY
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension XFIXES
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension RENDER
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension RANDR
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension COMPOSITE
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension DAMAGE
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension MIT-SCREEN-SAVER
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension DOUBLE-BUFFER
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension RECORD
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension DPMS
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension Present
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension DRI3
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension X-Resource
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension XVideo
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension XVideo-MotionCompensation
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension SELinux
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) SELinux: Disabled on system
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension GLX
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) AIGLX: Screen 0 is not DRI2 capable
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) IGLX: Loaded and initialized swrast
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) GLX: Initialized DRISWRAST GL provider for screen 0
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension XFree86-VidModeExtension
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension XFree86-DGA
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension XFree86-DRI
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Initializing extension DRI2
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) vmware(0): Setting screen physical size to 211 x 158
+vb goa-daemon[862]: goa-daemon version 3.36.0 starting
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating service name='org.gnome.Identity' requested by ':1.9' (uid=1000 pid=862 comm="/usr/libexec/goa-daemon " label="unconfined")
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gnome.OnlineAccounts'
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+vb systemd[786]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.3' (uid=1000 pid=802 comm="/usr/libexec/tracker-extract " label="unconfined")
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device Power Button (/dev/input/event0)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Power Button: Applying InputClass "libinput keyboard catchall"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) LoadModule: "libinput"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+vb systemd[786]: Starting Virtual filesystem service - Apple File Conduit monitor...
+vb systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gnome.Identity'
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+vb systemd[786]: Started Virtual filesystem service - Apple File Conduit monitor.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.3' (uid=1000 pid=802 comm="/usr/libexec/tracker-extract " label="unconfined")
+vb systemd[786]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Module libinput: vendor="X.Org Foundation"
+vb /usr/lib/gdm3/gdm-x-session[811]: #011compiled for 1.20.4, module version = 0.29.0
+vb /usr/lib/gdm3/gdm-x-session[811]: #011Module class: X.Org XInput Driver
+vb /usr/lib/gdm3/gdm-x-session[811]: #011ABI class: X.Org XInput driver, version 24.1
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Using input driver 'libinput' for 'Power Button'
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 20 paused 0
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Power Button: always reports core events
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "Device" "/dev/input/event0"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "_source" "server/udev"
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+vb systemd[786]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.42' (uid=1000 pid=803 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+vb systemd[786]: Started Tracker metadata extractor.
+vb systemd[1]: Starting Daemon for power management...
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event0 - Power Button: is tagged by udev as: Keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event0 - Power Button: device is a keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event0 - Power Button: device removed
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "xkb_model" "pc105"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "xkb_layout" "us"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event0 - Power Button: is tagged by udev as: Keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event0 - Power Button: device is a keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Using input driver 'libinput' for 'Sleep Button'
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 23 paused 0
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Sleep Button: always reports core events
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "Device" "/dev/input/event1"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "_source" "server/udev"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event1 - Sleep Button: is tagged by udev as: Keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event1 - Sleep Button: device is a keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event1 - Sleep Button: device removed
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "xkb_model" "pc105"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "xkb_layout" "us"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event1 - Sleep Button: is tagged by udev as: Keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event1 - Sleep Button: device is a keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device Video Bus (/dev/input/event4)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Using input driver 'libinput' for 'Video Bus'
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 24 paused 0
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Video Bus: always reports core events
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "Device" "/dev/input/event4"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "_source" "server/udev"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event4 - Video Bus: is tagged by udev as: Keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event4 - Video Bus: device is a keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event4 - Video Bus: device removed
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input6/event4"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "xkb_model" "pc105"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "xkb_layout" "us"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event4 - Video Bus: is tagged by udev as: Keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event4 - Video Bus: device is a keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/event6)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) VirtualBox mouse integration: Applying InputClass "libinput pointer catchall"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Using input driver 'libinput' for 'VirtualBox mouse integration'
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 25 paused 0
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) VirtualBox mouse integration: always reports core events
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "Device" "/dev/input/event6"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "_source" "server/udev"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event6 - VirtualBox mouse integration: is tagged by udev as: Mouse
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event6 - VirtualBox mouse integration: device is a pointer
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event6 - VirtualBox mouse integration: device removed
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:04.0/input/input7/event6"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) XINPUT: Adding extended input device "VirtualBox mouse integration" (type: MOUSE, id 9)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "AccelerationScheme" "none"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) VirtualBox mouse integration: (accel) selected scheme none/0
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) VirtualBox mouse integration: (accel) acceleration factor: 2.000
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) VirtualBox mouse integration: (accel) acceleration threshold: 4
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event6 - VirtualBox mouse integration: is tagged by udev as: Mouse
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event6 - VirtualBox mouse integration: device is a pointer
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/js1)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) No input driver specified, ignoring this device.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) This device may have been added with another device file.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/mouse2)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) No input driver specified, ignoring this device.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) This device may have been added with another device file.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.UPower'
+vb systemd[1]: Started Daemon for power management.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 26 paused 0
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) VirtualBox USB Tablet: always reports core events
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "Device" "/dev/input/event3"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "_source" "server/udev"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event3 - VirtualBox USB Tablet: is tagged by udev as: Mouse
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event3 - VirtualBox USB Tablet: device is a pointer
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event3 - VirtualBox USB Tablet: device removed
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input5/event3"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "AccelerationScheme" "none"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event3 - VirtualBox USB Tablet: is tagged by udev as: Mouse
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event3 - VirtualBox USB Tablet: device is a pointer
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) No input driver specified, ignoring this device.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) This device may have been added with another device file.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse0)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) No input driver specified, ignoring this device.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) This device may have been added with another device file.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 27 paused 0
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) AT Translated Set 2 keyboard: always reports core events
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "Device" "/dev/input/event2"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "_source" "server/udev"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event2 - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event2 - AT Translated Set 2 keyboard: device is a keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event2 - AT Translated Set 2 keyboard: device removed
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "xkb_model" "pc105"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "xkb_layout" "us"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event2 - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event2 - AT Translated Set 2 keyboard: device is a keyboard
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event5)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 28 paused 0
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "Device" "/dev/input/event5"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "_source" "server/udev"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event5 - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event5 - ImExPS/2 Generic Explorer Mouse: device is a pointer
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event5 - ImExPS/2 Generic Explorer Mouse: device removed
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input4/event5"
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 12)
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) Option "AccelerationScheme" "none"
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+vb /usr/lib/gdm3/gdm-x-session[811]: (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event5 - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) event5 - ImExPS/2 Generic Explorer Mouse: device is a pointer
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse1)
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) No input driver specified, ignoring this device.
+vb /usr/lib/gdm3/gdm-x-session[811]: (II) This device may have been added with another device file.
+vb /usr/lib/gdm3/gdm-x-session[903]: /etc/gdm3/Xsession: Beginning session setup...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=803 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+vb systemd[786]: Starting Tracker metadata database store and lookup manager...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.freedesktop.Tracker1'
+vb systemd[786]: Started Tracker metadata database store and lookup manager.
+vb /usr/lib/gdm3/gdm-x-session[923]: localuser:andra being added to access control list
+vb /usr/lib/gdm3/gdm-x-session[926]: dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+vb /usr/lib/gdm3/gdm-x-session[926]: dbus-update-activation-environment: setting DISPLAY=:0
+vb /usr/lib/gdm3/gdm-x-session[926]: dbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority
+vb /usr/lib/gdm3/gdm-x-session[934]: localuser:andra being added to access control list
+vb systemd[786]: Started Tracker file system data miner.
+vb systemd[786]: Reached target Main User Target.
+vb systemd[786]: Startup finished in 9.839s.
+vb /usr/lib/gdm3/gdm-x-session[968]: dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+vb /usr/lib/gdm3/gdm-x-session[976]: dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting SHELL=/bin/bash
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting GTK_IM_MODULE=ibus
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting QT4_IM_MODULE=ibus
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LC_ADDRESS=ro_RO.UTF-8
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LC_NAME=ro_RO.UTF-8
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting XMODIFIERS=@im=ibus
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting DESKTOP_SESSION=ubuntu
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LC_MONETARY=ro_RO.UTF-8
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting PWD=/home/andra
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=ubuntu
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LOGNAME=andra
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting XAUTHORITY=/run/user/1000/gdm/Xauthority
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting WINDOWPATH=2
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting HOME=/home/andra
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting USERNAME=andra
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LC_PAPER=ro_RO.UTF-8
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LANG=en_US.UTF-8
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=ubuntu:GNOME
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting CLUTTER_IM_MODULE=ibus
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LC_IDENTIFICATION=ro_RO.UTF-8
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting USER=andra
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting DISPLAY=:0
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting SHLVL=1
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LC_TELEPHONE=ro_RO.UTF-8
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting QT_IM_MODULE=ibus
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LC_MEASUREMENT=ro_RO.UTF-8
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LC_TIME=ro_RO.UTF-8
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting GDMSESSION=ubuntu
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting LC_NUMERIC=ro_RO.UTF-8
+vb /usr/lib/gdm3/gdm-x-session[980]: dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating service name='org.freedesktop.portal.IBus' requested by ':1.19' (uid=1000 pid=999 comm="/usr/bin/ibus-daemon --daemonize --xim " label="unconfined")
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.3' (uid=1000 pid=802 comm="/usr/libexec/tracker-extract " label="unconfined")
+vb systemd[786]: Starting Virtual filesystem metadata service...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.freedesktop.portal.IBus'
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gtk.vfs.Metadata'
+vb systemd[786]: Started Virtual filesystem metadata service.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.23' (uid=1000 pid=1004 comm="/usr/libexec/gnome-session-check-accelerated " label="unconfined")
+vb systemd[786]: Starting Accessibility services bus...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.a11y.Bus'
+vb systemd[786]: Started Accessibility services bus.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.28' (uid=1000 pid=1008 comm="/usr/libexec/ibus-extension-gtk3 " label="unconfined")
+vb at-spi-bus-launcher[1027]: dbus-daemon[1027]: Activating service name='org.a11y.atspi.Registry' requested by ':1.3' (uid=1000 pid=1005 comm="/usr/libexec/ibus-ui-gtk3 " label="unconfined")
+vb systemd[786]: Starting Portal service...
+vb at-spi-bus-launcher[1027]: dbus-daemon[1027]: Successfully activated service 'org.a11y.atspi.Registry'
+vb at-spi-bus-launcher[1034]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.32' (uid=1000 pid=1035 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+vb systemd[786]: Starting flatpak document portal service...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.33' (uid=1000 pid=1044 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+vb systemd[786]: Starting sandboxed app permission store...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+vb systemd[786]: Started sandboxed app permission store.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.freedesktop.portal.Documents'
+vb systemd[786]: Started flatpak document portal service.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.32' (uid=1000 pid=1035 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+vb systemd[786]: Starting Portal service (GTK+/GNOME implementation)...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating service name='ca.desrt.dconf' requested by ':1.35' (uid=1000 pid=1057 comm="/usr/libexec/xdg-desktop-portal-gtk " label="unconfined")
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'ca.desrt.dconf'
+vb gnome-session[1004]: gnome-session-check-accelerated: GL Helper exited with code 512
+vb gnome-session[1066]: libEGL warning: DRI2: failed to authenticate
+vb gnome-session[1004]: gnome-session-check-accelerated: GLES Helper exited with code 512
+vb systemd[786]: Created slice gnome\x2dsession\x2dmanager.slice.
+vb systemd[786]: Started Path trigger for Avahi .local domain notifications.
+vb systemd[786]: Started Path trigger for Apport crash notifications.
+vb systemd[786]: Started Path trigger for new release of Ubuntu notifications.
+vb systemd[786]: Condition check resulted in GNOME Initial Setup Copy Worker being skipped.
+vb systemd[786]: Starting Start gnome-keyring as SSH agent...
+vb systemd[786]: Starting Start gnome-keyring for the Secrets Service, and PKCS #11...
+vb systemd[786]: Starting Monitor Session leader for GNOME Session...
+vb systemd[786]: Starting Session Migration...
+vb systemd[786]: Finished Start gnome-keyring as SSH agent.
+vb systemd[786]: Started OpenSSH Agent.
+vb gnome-session-c[1072]: Error creating FIFO: File exists
+vb systemd[786]: Started Monitor Session leader for GNOME Session.
+vb systemd[786]: ssh-agent.service: Succeeded.
+vb systemd[786]: session-migration.service: Succeeded.
+vb systemd[786]: Finished Session Migration.
+vb systemd[786]: gnome-keyring.service: Succeeded.
+vb systemd[786]: Finished Start gnome-keyring for the Secrets Service, and PKCS #11.
+vb systemd[786]: Reached target Session services which should run early before the graphical session is brought up.
+vb systemd[786]: Reached target Tasks to be run before GNOME Session starts.
+vb systemd[786]: Starting GNOME Session Manager (session: ubuntu)...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+vb systemd[786]: Started Portal service (GTK+/GNOME implementation).
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.freedesktop.portal.Desktop'
+vb systemd[786]: Started Portal service.
+vb gnome-keyring-ssh.desktop[1094]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+vb gnome-keyring-secrets.desktop[1095]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+vb systemd[786]: Started GNOME Session Manager (session: ubuntu).
+vb systemd[786]: Reached target GNOME Session Manager is ready.
+vb systemd[786]: Starting GNOME Shell on X11...
+vb gnome-shell[1096]: Enabling experimental feature 'x11-randr-fractional-scaling'
+vb /usr/lib/gdm3/gdm-x-session[811]: (EE) No surface to present from.
+vb systemd[1]: systemd-fsckd.service: Succeeded.
+vb gnome-shell[1096]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+vb gnome-shell[1096]: Will monitor session 1
+vb gnome-shell[1123]: current session already has an ibus-daemon.
+vb systemd-timesyncd[491]: Initial synchronization to time server 91.189.89.199:123 (ntp.ubuntu.com).
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.43' (uid=1000 pid=1096 comm="/usr/bin/gnome-shell " label="unconfined")
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.45' (uid=1000 pid=1127 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+vb systemd[786]: Starting Evolution source registry...
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.48' (uid=1000 pid=1096 comm="/usr/bin/gnome-shell " label="unconfined")
+vb systemd[1]: Starting Location Lookup Service...
+vb gnome-shell[1096]: Telepathy is not available, chat integration will be disabled.
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+vb systemd[1]: Started Location Lookup Service.
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.48' (uid=1000 pid=1096 comm="/usr/bin/gnome-shell " label="unconfined")
+vb systemd[1]: Starting PackageKit Daemon...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+vb systemd[786]: Started Evolution source registry.
+vb PackageKit: daemon start
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.45' (uid=1000 pid=1127 comm="/usr/libexec/gnome-shell-calendar-server " label="unconfined")
+vb systemd[786]: Starting Evolution calendar service...
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gnome.Shell.CalendarServer'
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+vb systemd[1]: Started PackageKit Daemon.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating service name='org.freedesktop.FileManager1' requested by ':1.43' (uid=1000 pid=1096 comm="/usr/bin/gnome-shell " label="unconfined")
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+vb systemd[786]: Started Evolution calendar service.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.47' (uid=1000 pid=1149 comm="/usr/libexec/evolution-calendar-factory " label="unconfined")
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating service name='org.gnome.Shell.Notifications' requested by ':1.43' (uid=1000 pid=1096 comm="/usr/bin/gnome-shell " label="unconfined")
+vb systemd[786]: Starting Evolution address book service...
+vb systemd[1]: Received SIGRTMIN+21 from PID 300 (plymouthd).
+vb systemd[1]: plymouth-start.service: Succeeded.
+vb systemd[1]: plymouth-quit-wait.service: Succeeded.
+vb systemd[1]: Finished Hold until boot process finishes up.
+vb systemd[1]: Reached target Multi-User System.
+vb systemd[1]: Reached target Graphical Interface.
+vb systemd[1]: Starting Set console scheme...
+vb systemd[1]: Starting Update UTMP about System Runlevel Changes...
+vb systemd[1]: Finished Set console scheme.
+vb systemd[1]: Created slice system-getty.slice.
+vb systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+vb systemd[1]: Finished Update UTMP about System Runlevel Changes.
+vb systemd[1]: Startup finished in 8.338s (kernel) + 47.745s (userspace) = 56.083s.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+vb systemd[786]: Started Evolution address book service.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gnome.Shell.Notifications'
+vb systemd[786]: Started GNOME Shell on X11.
+vb systemd[786]: Reached target GNOME Shell on X11.
+vb systemd[786]: Reached target GNOME Session is initialized.
+vb systemd[786]: Reached target GNOME session X11 services.
+vb systemd[786]: Reached target GNOME X11 Session.
+vb systemd[786]: Reached target GNOME Session (session: ubuntu).
+vb systemd[786]: Starting Signal initialization done to GNOME Session Manager...
+vb systemd[786]: Starting GNOME Accessibility settings...
+vb systemd[786]: Starting GNOME Color management...
+vb systemd[786]: Starting GNOME Date & Time handling...
+vb systemd[786]: Starting GNOME Maintenance of expirable data...
+vb systemd[786]: Starting GNOME Keyboard handling...
+vb systemd[786]: Starting GNOME Media keys handling...
+vb systemd[786]: Starting GNOME Power management handling...
+vb systemd[786]: Starting GNOME Printer notifications...
+vb systemd[786]: Starting GNOME RFKill handling...
+vb systemd[786]: Starting GNOME Freedesktop screensaver handling...
+vb systemd[786]: Starting GNOME Sharing handling...
+vb systemd[786]: Starting GNOME Smartcard handling...
+vb systemd[786]: Starting GNOME Sound sample caching handling...
+vb systemd[786]: Starting GNOME USB protection handling...
+vb systemd[786]: Starting GNOME Wacom handling...
+vb kernel: [ 56.849251] rfkill: input handler disabled
+vb systemd[786]: Starting GNOME WWan management...
+vb systemd[786]: Starting GNOME XSettings...
+vb systemd[786]: gnome-session-signal-init.service: Succeeded.
+vb systemd[786]: Finished Signal initialization done to GNOME Session Manager.
+vb systemd[786]: Started GNOME Accessibility settings.
+vb systemd[786]: Started GNOME Freedesktop screensaver handling.
+vb systemd[786]: Started GNOME Maintenance of expirable data.
+vb systemd[786]: Started GNOME RFKill handling.
+vb systemd[786]: Reached target GNOME Accessibility settings.
+vb systemd[786]: Reached target GNOME Maintenance of expirable data.
+vb systemd[786]: Reached target GNOME RFKill handling.
+vb systemd[786]: Reached target GNOME Freedesktop screensaver handling.
+vb vmware-user.desktop[1267]: vmware-user: could not open /proc/fs/vmblock/dev
+vb NetworkManager[532]: <info> [1646891112.6566] agent-manager: agent[30d6f144f6396d90,:1.48/org.gnome.Shell.NetworkAgent/1000]: agent registered
+vb gnome-shell[1096]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+vb gnome-session-binary[1079]: Entering running state
+vb systemd[786]: Started GNOME Sharing handling.
+vb systemd[786]: Reached target GNOME Sharing handling.
+vb systemd[786]: Started GNOME Smartcard handling.
+vb systemd[786]: Reached target GNOME Smartcard handling.
+vb systemd[786]: Started GNOME Printer notifications.
+vb systemd[786]: Reached target GNOME Printer notifications.
+vb systemd[786]: Started GNOME Sound sample caching handling.
+vb systemd[786]: Started GNOME Keyboard handling.
+vb systemd[786]: Started GNOME Date & Time handling.
+vb systemd[786]: Reached target GNOME Date & Time handling.
+vb systemd[786]: Reached target GNOME Keyboard handling.
+vb systemd[786]: Reached target GNOME Sound sample caching handling.
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.62' (uid=1000 pid=1202 comm="/usr/libexec/gsd-color " label="unconfined")
+vb systemd[786]: Started GNOME Color management.
+vb systemd[786]: Reached target GNOME Color management.
+vb dbus-daemon[531]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.60' (uid=1000 pid=1208 comm="/usr/libexec/gsd-keyboard " label="unconfined")
+vb systemd[1]: Starting Manage, Install and Generate Color Profiles...
+vb systemd[786]: Started GNOME USB protection handling.
+vb systemd[786]: Reached target GNOME USB protection handling.
+vb systemd[786]: Started GNOME Wacom handling.
+vb systemd[786]: Reached target GNOME Wacom handling.
+vb systemd[786]: Started GNOME WWan management.
+vb systemd[786]: Reached target GNOME WWan management.
+vb systemd[786]: Started GNOME Media keys handling.
+vb systemd[786]: Reached target GNOME Media keys handling.
+vb systemd[786]: Started GNOME Power management handling.
+vb systemd[786]: Reached target GNOME Power management handling.
+vb systemd[1]: Starting Locale Service...
+vb colord[1309]: failed to get edid data: EDID length is too small
+vb systemd[786]: tracker-extract.service: Succeeded.
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+vb systemd[1]: Started Manage, Install and Generate Color Profiles.
+vb gsd-media-keys[1209]: Failed to grab accelerator for keybinding settings:rfkill
+vb gsd-media-keys[1209]: Failed to grab accelerator for keybinding settings:playback-repeat
+vb gsd-media-keys[1209]: Failed to grab accelerator for keybinding settings:playback-random
+vb gsd-media-keys[1209]: Failed to grab accelerator for keybinding settings:hibernate
+vb dbus-daemon[531]: [system] Successfully activated service 'org.freedesktop.locale1'
+vb systemd[1]: Started Locale Service.
+vb tracker-store.desktop[1281]: (uint32 2,)
+vb systemd[786]: Started GNOME XSettings.
+vb systemd[786]: Reached target GNOME XSettings.
+vb systemd[786]: Reached target GNOME Session.
+vb systemd[786]: Reached target GNOME X11 Session (session: ubuntu).
+vb systemd[786]: Reached target Current graphical user session.
+vb systemd[786]: Condition check resulted in GNOME Initial Setup being skipped.
+vb systemd[786]: Condition check resulted in GNOME Welcome Tour being skipped.
+vb gsd-color[1202]: failed to get edid: unable to get EDID for output
+vb colord[1309]: failed to get session [pid 1202]: No data available
+vb gnome-shell[1096]: STACK_OP_ADD: window 0x2000001 already in stack
+vb gnome-shell[1096]: STACK_OP_ADD: window 0x2000001 already in stack
+vb gsd-color[1202]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.freedesktop.FileManager1'
+vb pulseaudio[801]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+vb gnome-shell[1096]: GNOME Shell started at Thu Mar 10 2022 07:45:10 GMT+0200 (EET)
+vb gnome-shell[1096]: Registering session with GDM
+vb systemd[1]: systemd-timedated.service: Succeeded.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating service name='org.gnome.Nautilus' requested by ':1.43' (uid=1000 pid=1096 comm="/usr/bin/gnome-shell " label="unconfined")
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gnome.Nautilus'
+vb nautilus[1382]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+vb gsd-color[1202]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+vb gnome-shell[1096]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+vb systemd[1]: systemd-localed.service: Succeeded.
+vb tracker-store[907]: OK
+vb systemd[786]: tracker-store.service: Succeeded.
+vb dbus-daemon[816]: [session uid=1000 pid=816] Activating service name='org.gnome.gedit' requested by ':1.75' (uid=1000 pid=1382 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+vb dbus-daemon[816]: [session uid=1000 pid=816] Successfully activated service 'org.gnome.gedit'
+vb systemd[1]: systemd-hostnamed.service: Succeeded.
